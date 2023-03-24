@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wincent/Tiny_Visual_Odometry/Single_OpticalFlow.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+Eigen/Core
+-
+Eigen/Dense
+-
+string
+-
+chrono
+-
+
